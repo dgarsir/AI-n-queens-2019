@@ -57,7 +57,7 @@ def canPlace(board, row, col):
         c += 1
     return True
     
-
+# use recursion to check for solution
 def findSolution(board, col):
     if (col == len(board)):
         return True
