@@ -154,7 +154,7 @@ def solution(population):
     
 
 pop_size = 10
-board_size = 10
+board_size = int(input("Enter a board size: "))
 initial_population = Population(pop_size)
 initial_population.populate(board_size)
 
